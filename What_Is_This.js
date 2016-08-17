@@ -93,7 +93,7 @@ console.assert(whatIsThis.apply(confusing, 'nice', 'job') === FILL_ME_IN)
 // Once you've figured out what the output is, answer here in a comment: Why is this so?
 // answers: apply() deals with arrays and there isn't an array here
 
-console.assert(inAFunction('what will', 'happen?') === "[object Object],what will,happpen?")
+console.assert(inAFunction('what will', 'happen?') === "[object Window],what will,happpen?")
 // Once you've figured out what the output is, answer here in a comment: Why is this so?
 // answer: inAFunction = function(a, b)
 
